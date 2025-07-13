@@ -5,19 +5,9 @@ interface Student{
     location: string;
 }
 
-const student1: Student = {
-    firstName: 'Collins',
-    lastName: 'Tunge',
-    age: 28,
-    location: 'New York',
 
-}
-const student2: Student = {
-    firstName: 'John',
-    lastName: 'Tunge',
-    age: 48,
-    location: 'New Jersey',
-
-}
-
-const studentsList=[student1,student2]
+const student: Student[]=[
+    {firstName: 'Collins', lastName:'Tunge',age:28,location:'Nairobi'},
+    {firstName: 'John', lastName:'Junior',age:29,location:'Lagos'},
+    {firstName: 'Collins', lastName:'Tunge',age:28,location:'Nairobi'}
+]
