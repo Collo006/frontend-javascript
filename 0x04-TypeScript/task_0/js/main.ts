@@ -19,3 +19,5 @@ const student2: Student = {
     age: 20,
     location: 'Kenya'
 }
+
+const studentsList= [student1, student2];
