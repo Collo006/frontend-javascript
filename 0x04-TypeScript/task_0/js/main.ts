@@ -6,8 +6,16 @@ interface Student{
 }
 
 
-const student: Student[]=[
-    {firstName: 'Collins', lastName:'Tunge',age:28,location:'Nairobi'},
-    {firstName: 'John', lastName:'Junior',age:29,location:'Lagos'},
-    {firstName: 'Collins', lastName:'Tunge',age:28,location:'Nairobi'}
-]
+const student1:  Student={
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 20,
+    location: 'New York',
+}
+
+const student2: Student = {
+    firstName: 'Collins',
+    lastName: 'Tunge',
+    age: 20,
+    location: 'Kenya'
+}
