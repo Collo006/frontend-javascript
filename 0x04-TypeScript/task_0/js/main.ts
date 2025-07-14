@@ -21,3 +21,4 @@ const student2: Student = {
 }
 
 const studentsList= [student1, student2];
+
